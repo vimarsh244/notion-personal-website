@@ -12,7 +12,7 @@ module.exports = {
   author: 'Vimarsh',
 
   // open graph metadata (optional)
-  description: 'A 17 Y/o Maker and Learner',
+  // description: 'A 17 Y/o Maker and Learner',
   socialImageTitle: 'Vimarsh',
   socialImageSubtitle: 'Hello World! 👋',
 
