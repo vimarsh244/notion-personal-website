@@ -27,7 +27,7 @@ export async function getSiteMaps(): Promise<types.SiteMap[]> {
       }
     },
     {
-      concurrency: 5
+      concurrency: 10
     }
   )
 
