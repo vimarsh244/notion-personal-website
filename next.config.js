@@ -10,5 +10,16 @@ module.exports = withBundleAnalyzer({
   },
   future: {
     webpack5: true
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/blog/fastest-way-to-install-wordpress',
+        destination: '/fastest-way-to-install-wordpress',
+        permanent: true,
+      },
+    ]
+  },
+
+  
 })
