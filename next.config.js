@@ -18,6 +18,11 @@ module.exports = withBundleAnalyzer({
         destination: '/fastest-way-to-install-wordpress',
         permanent: true,
       },
+      {
+        source: '/notes/quickly-and-easily-install-nextcloud',
+        destination: '/quickly-and-easily-install-nextcloud',
+        permanent: true,
+      },
     ]
   },
 
