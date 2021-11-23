@@ -78,8 +78,6 @@ export const Footer: React.FC<{
         )}
       </div>
       <script async defer data-domain="vimarsh.info" src="https://cdn.vimarsh.info/app.js"></script>
-
-
     </footer>
   )
 }

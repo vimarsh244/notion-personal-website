@@ -14,7 +14,12 @@ async function searchNotionImpl(
     method: 'POST',
     body: JSON.stringify(params),
     headers: {
-      'content-type': 'application/json'
+      'content-type': 'application/json',
+      'mode':'no-cors',
+      'Access-Control-Allow-Origin': 'https://www.vimarsh.info',
+      'Access-Control-Allow-Methods': 'POST, PUT, GET, OPTIONS',
+      'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
+
     }
   })
     .then((res) => {
