@@ -25,6 +25,16 @@ module.exports = withBundleAnalyzer({
         destination: '/the-best-way-to-self-host',
         permanent: true,
       },
+      {
+        source: '/blog/ethics-of-ai',
+        destination: '/the-ethics-of-ai',
+        permanent: true,
+      },
+      {
+        source: '/blog/youth-and-essence-of-individuality',
+        destination: '/youth-and-essence-of-individuality',
+        permanent: true,
+      },
     ]
   },
 
