@@ -40,6 +40,11 @@ module.exports = withBundleAnalyzer({
         destination: '/how-to-access-your-local-server-without-port-forwarding',
         permanent: true,
       },
+      {
+        source: '/blog/future-conflicts-will-be-confined-to-online-hacking',
+        destination: '/future-conflicts-will-be-confined-to-online-hacking',
+        permanent: true,
+      },
     ]
   },
 
