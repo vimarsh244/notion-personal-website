@@ -8,9 +8,6 @@ module.exports = withBundleAnalyzer({
   images: {
     domains: ['pbs.twimg.com']
   },
-  future: {
-    webpack5: true
-  },
   async redirects() {
     return [
       {
@@ -21,6 +18,11 @@ module.exports = withBundleAnalyzer({
       {
         source: '/notes/quickly-and-easily-install-nextcloud',
         destination: '/quickly-and-easily-install-nextcloud',
+        permanent: true,
+      },
+      {
+        source: '/notes/the-best-way-to-self-host',
+        destination: '/the-best-way-to-self-host',
         permanent: true,
       },
     ]
