@@ -35,6 +35,11 @@ module.exports = withBundleAnalyzer({
         destination: '/youth-and-essence-of-individuality',
         permanent: true,
       },
+      {
+        source: '/blog/reverse-tunnelling',
+        destination: '/how-to-access-your-local-server-without-port-forwarding',
+        permanent: true,
+      },
     ]
   },
 
