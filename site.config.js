@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Vimarsh Shah',
-  domain: 'vimarsh.info',
+  domain: 'www.vimarsh.info',
   author: 'Vimarsh',
 
   // open graph metadata (optional)
