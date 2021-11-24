@@ -36,7 +36,7 @@ module.exports = withBundleAnalyzer({
         permanent: true,
       },
       {
-        source: '/blog/reverse-tunnelling',
+        source: '/blog/reverse-tunneling',
         destination: '/how-to-access-your-local-server-without-port-forwarding',
         permanent: true,
       },
