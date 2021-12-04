@@ -77,7 +77,7 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
-      <script async defer src="https://cdn.0xvimarsh.com/youarebeingtracked.js"></script>
+      <script id="plausible" defer data-domain="0xvimarsh.com" src="https://z.0xvimarsh.com/js/plausible.outbound-links.compat.js"></script>
     </footer>
   )
 }
