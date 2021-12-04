@@ -77,7 +77,7 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
-      <script async defer data-domain="vimarsh.info" src="https://cdn.vimarsh.info/app.js"></script>
+      <script async defer src="https://cdn.0xvimarsh.com/youarebeingtracked.js"></script>
     </footer>
   )
 }
