@@ -24,8 +24,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       <meta name='theme-color' content='#EB625A' />
       <meta property='og:type' content='website' />
 
-      <script async defer data-domain="vimarsh.info" src="https://cdn.vimarsh.info/app.js"></script>
-
+        
+      <script id="plausible" defer data-domain="0xvimarsh.com" src="https://z.0xvimarsh.com/js/plausible.outbound-links.compat.js"></script>
     </Head>
   )
 }
