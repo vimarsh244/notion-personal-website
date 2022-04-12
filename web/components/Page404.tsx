@@ -13,7 +13,7 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
 
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1>Page Not Found</h1>
+          <h1>404 Page Not Found</h1>
 
           {error ? (
             <p>{error.message}</p>
@@ -27,7 +27,7 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
           )}
 
           <img
-            src='/404.png'
+            src='/404.jpg'
             alt='404 Not Found'
             className={styles.errorImage}
           />
