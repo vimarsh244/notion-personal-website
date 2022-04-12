@@ -95,7 +95,7 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
       </div>
-      <script async defer data-website-id="2f730397-d4a4-48ae-93ef-14dbbeb3f495" src="https://logs.u.vimarsh.info/umami.js"></script>
+      <script async defer data-website-id="2f730397-d4a4-48ae-93ef-14dbbeb3f495" src="https://logs.vimarsh.info/logs.js"></script>
     </footer>
   )
 }
