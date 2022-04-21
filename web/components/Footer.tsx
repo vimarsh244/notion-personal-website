@@ -95,7 +95,7 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
       </div>
-      <script defer data-domain="vimarsh.info" src="https://z.vimarsh.info/js/script.hash.outbound-links.compat.js"></script>
+      <script defer data-domain="vimarsh.info" src="https://z.vimarsh.info/js/script.outbound-links.js"></script>
     </footer>
   )
 }
