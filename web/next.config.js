@@ -17,7 +17,7 @@ module.exports = withBundleAnalyzer({
       'i.ytimg.com',
     ],
     formats: ['image/webp'],
-    layout: "responsive",
+    // layout: "responsive",
     // formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
