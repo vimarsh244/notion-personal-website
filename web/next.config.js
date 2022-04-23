@@ -16,9 +16,9 @@ module.exports = withBundleAnalyzer({
       's3.us-west-2.amazonaws.com',
       'i.ytimg.com',
     ],
-    // formats: ['image/webp'],
+    formats: ['image/webp'],
     layout: "responsive",
-    formats: ['image/avif', 'image/webp'],
+    // formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   }
