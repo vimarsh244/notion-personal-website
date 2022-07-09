@@ -75,7 +75,7 @@ export const PageHead: React.FC<
         href={rssFeedUrl}
         title={site?.name}
       />
-
+      <script defer data-domain="vimarsh.info" src="https://z.vimarsh.info/js/plausible.outbound-links.hash.js"></script>
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
