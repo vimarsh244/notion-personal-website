@@ -11,7 +11,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Vimarsh',
-  domain: 'vimarsh.info',
+  domain: 'vimarsh.co',
   author: 'Vimarsh Shah',
 
   // open graph metadata (optional)
